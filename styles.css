@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:grey;
+    height: 65px;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+nav div h3{
+    font-size: 27px;
+    color:aqua;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor:pointer;
+}
+nav li{
+    padding: 12px;
+    font-size: larger;
+    
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+}
+nav li:hover{
+    background-color: lightgrey;
+
+}
