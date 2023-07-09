@@ -5,7 +5,7 @@
 nav{
     display: flex;
     justify-content: space-around;
-    background-color:grey;
+    background-color:rgb(172, 165, 165);
     height: 65px;
     align-items: center;
 }
@@ -35,4 +35,45 @@ nav li a{
 nav li:hover{
     background-color: lightgrey;
 
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('/asset/image/background.jpg');
+    /* linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0,4)); */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.title{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+}
+.colorable{
+    color:red;
+}
+.description{
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+.btn2{
+    background-color: white;
+    color:red;
 }
