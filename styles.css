@@ -93,16 +93,19 @@ title2{
     background-position: center;
 }
 .icon{
+    width: 70px;
+    margin bottom: 20px;
+    /* height: 150px;
+    width: 150px;
+    background-color: white; */
+}
+.box{
+    text-align: center;
     height: 150px;
     width: 150px;
     background-color: white;
-}
-.box{
-    height: 250px;
-    width: 250px;
-    background-color: white;
     border:none;
-    padding: 10px 0px 0px 10px;
+    padding: 50px;
 }
 
 .service-container{
@@ -130,5 +133,30 @@ title2{
     border:0;
     margin-bottom: 5px;
     
-
+}
+.list{
+    font-size: 15px;
+    color:white;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.photo{
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.para{
+    color:white;
+    font-weight: bold;
+}
+.first-contain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    gap:5px;
 }
