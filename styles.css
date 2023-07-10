@@ -162,7 +162,25 @@ title2{
     display: flex;
     align-items: center;
     gap:5px;
+   
 }
 .box{
     margin-bottom: 5px;
+}
+.first-div{
+    display: flex;
+    align-items: center;
+}
+.appoinment-container{
+
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width:80%;
+    margin:auto;
+    background-color: red;
+    padding:10px;
+    margin-top: -40px;
+    border-radius: 20px;
+    
 }
